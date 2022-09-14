@@ -12,6 +12,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     margin: 30px 20px;
+    width: 100vh;
+}
+.nav-logo{
+    height: fit-content;
 }
 .nav-logo-img{
     height: 15px;
