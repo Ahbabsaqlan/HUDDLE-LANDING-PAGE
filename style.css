@@ -1,0 +1,17 @@
+.nav-button{
+    background: #fafafa;
+  background-image: -webkit-linear-gradient(top, #fafafa, #ffffff);
+  background-image: -moz-linear-gradient(top, #fafafa, #ffffff);
+  background-image: -ms-linear-gradient(top, #fafafa, #ffffff);
+  background-image: -o-linear-gradient(top, #fafafa, #ffffff);
+  background-image: linear-gradient(to bottom, #fafafa, #ffffff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #c90cad;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #c90cad 2px;
+  text-decoration: none;
+}
