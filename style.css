@@ -1,17 +1,51 @@
+*{
+    margin: 0%;
+}
+/*Nav section*/
+
+.nav{
+    display: grid;
+    justify-items: center;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 30px 20px;
+}
+.nav-logo-img{
+    height: 15px;
+}
 .nav-button{
     background: #fafafa;
-  background-image: -webkit-linear-gradient(top, #fafafa, #ffffff);
-  background-image: -moz-linear-gradient(top, #fafafa, #ffffff);
-  background-image: -ms-linear-gradient(top, #fafafa, #ffffff);
-  background-image: -o-linear-gradient(top, #fafafa, #ffffff);
-  background-image: linear-gradient(to bottom, #fafafa, #ffffff);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #c90cad;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  border: solid #c90cad 2px;
-  text-decoration: none;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #c90cad;
+    font-size: 10px;
+    padding: 5px 10px;
+    border: solid #c90cad 2px;
+    text-decoration: none;
+    grid-column: 3;
+}
+.nav-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 80px 30px 30px;
+}
+.nav-para{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 30px 50px;
+}
+.nav-big-button{
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: hsl(322, 100%, 66%);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
 }
