@@ -95,6 +95,24 @@
 
 /*freture section*/
 
+.feature-text{
+    display: grid;
+    justify-items: center;
+}
+.feature-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: hsl(192, 100%, 9%);
+}
+.feature-para{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    margin: 20px 30px 40px;
+    text-align: center;
+}
+/*grow*/
 .feature-grow{
     display: grid;
 }
@@ -103,27 +121,19 @@
     justify-items: center;
     background-color: #F6FBFF;
 }
-.feature-grow-text{
-    display: grid;
-    justify-items: center;
-}
-.feature-grow-heading{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: hsl(192, 100%, 9%);
-}
-.feature-grow-para{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: hsl(192, 100%, 9%);
-    margin: 20px 30px 40px;
-    text-align: center;
-}
 .feaure-grow-img{
     height: 200px;
     padding: 100px 0% 70px;   
 }
 .grow-top{
     width: 100vw;
+}
+/*flow*/
+.feature-flow{
+    display: grid;
+    justify-items: center;
+}
+.feature-flow-img{
+    height: 200px;
+    padding: 150px 0% 70px;  
 }
