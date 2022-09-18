@@ -9,8 +9,9 @@
 }
 .navbar{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+    grid-template-columns: 1fr 0.8fr 1fr;
+    justify-items: right;
+    justify-self: center;
     margin: 30px 20px;
     width: max-content;
 }
@@ -59,7 +60,9 @@
     width: fit-content;
 }
 .welcome-img{
-    margin: 50px 30px;
+    margin: 50px auto;
+    display: grid;
+    justify-items: center;
 }
 .welcome-cards{
     display: grid;
