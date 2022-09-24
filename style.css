@@ -207,6 +207,7 @@
     height: 40px;
     border-radius: 5px ;
     border: none;
+    font-size: 20px;
 }
 .subscribe{
     justify-self: end;
@@ -239,8 +240,15 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
+.social-icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 5fr;
+    margin-top: 50px;
+}
 .icon{
     color: #ffffff;
-    font-size: 25px;
-    margin: 40px 7px 0px;
+    font-size: 28px;
+}
+.icon-link{
+    width: min-content;
 }
