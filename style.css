@@ -121,7 +121,7 @@
     justify-items: center;
     background-color: #F6FBFF;
 }
-.feaure-grow-img{
+.feature-grow-img{
     height: 200px;
     padding: 100px 0% 70px;   
 }
@@ -136,4 +136,31 @@
 .feature-flow-img{
     height: 200px;
     padding: 150px 0% 70px;  
+}
+/*user*/
+.feature-user{
+    display: grid;
+    margin: 100px 0px;
+}
+/*get-started*/
+.feature-get-started{
+    display: grid;
+    justify-items: center;
+}
+.feature-get-started-heading{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 23px;
+    width: 85%;
+    text-align: center;
+}
+.get-started-button{
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #FF52BF;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    margin: 50px 0px 250px;
 }
