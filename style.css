@@ -21,7 +21,8 @@
 .nav-button{
     background: #fafafa;
     border-radius: 28px;
-    font-family: Arial;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     color: #c90cad;
     font-size: 10px;
     padding: 5px 10px;
@@ -45,6 +46,7 @@
 .nav-big-button{
     border-radius: 28px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     color: #ffffff;
     font-size: 12px;
     background: hsl(322, 100%, 66%);
@@ -156,11 +158,89 @@
 }
 .get-started-button{
     border-radius: 28px;
-    font-family: Arial;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     color: #ffffff;
     font-size: 12px;
     background: #FF52BF;
     padding: 10px 30px 10px 30px;
     text-decoration: none;
     margin: 50px 0px 250px;
+}
+
+/*footer section*/
+
+.main-footer{
+    display: grid;
+}
+.footer-top-bg{
+    width: 100vw;
+}
+.footer-content{
+    background-color: hsl(192, 100%, 9%);
+    display: grid;
+    padding: 50px 38px;
+}
+/*footer newsletter*/
+.footer-newsletter{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+.footer-heading{
+    justify-self: start;
+    color: #F6FBFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-text{
+    text-align: start;
+    color: #F6FBFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin:15px 0px 25px ;
+    line-height: 25px;
+}
+.footer-email-input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px ;
+    border: none;
+}
+.subscribe{
+    justify-self: end;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    background: #FF52BF;
+    padding: 13px 40px;
+    margin-top: 15px;
+    text-decoration: none;
+    border: none;
+}
+/*footer contact*/
+.footer-logo-img{
+    height: 32px;
+}
+.footer-logo .footer-text{
+    margin-bottom: 50px;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr;
+    row-gap: 30px;
+    column-gap: 10px;
+}
+.contact-text{
+    color: #F6FBFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.icon{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 40px 7px 0px;
 }
