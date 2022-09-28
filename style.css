@@ -81,6 +81,7 @@
 .card-heading{
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
+    color: hsl(192, 100%, 9%);
 }
 .card-para-1{
     font-family: 'Open Sans', sans-serif;
@@ -293,7 +294,30 @@
 
     /*Welcome section*/
 
-    
+    .wel-img{
+        height: auto;
+        width: 70vw;
+    }
+    .wel-card-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards-img{
+        height: 45px;
+        right: 14%;
+    }
+    .card-heading{
+        font-size: 100px;
+    }
+    .card-para-1{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .card-para-2{
+        font-size: 24px;
+        font-weight: 400;
+        margin:0% 0%;
+    }
 
 }
 
