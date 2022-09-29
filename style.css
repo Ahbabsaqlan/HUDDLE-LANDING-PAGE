@@ -23,10 +23,10 @@
     border-radius: 28px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    color: #c90cad;
+    color: hsl(322, 100%, 66%);
     font-size: 10px;
     padding: 5px 10px;
-    border: solid #c90cad 2px;
+    border: solid hsl(322, 100%, 66%) 2px;
     text-decoration: none;
     grid-column: 3;
 }
@@ -172,7 +172,7 @@
     font-weight: 600;
     color: #ffffff;
     font-size: 12px;
-    background: #FF52BF;
+    background: hsl(322, 100%, 66%);
     padding: 10px 30px 10px 30px;
     text-decoration: none;
     margin: 50px 0px 250px;
@@ -226,7 +226,7 @@
     font-weight: 600;
     color: #ffffff;
     font-size: 14px;
-    background: #FF52BF;
+    background: hsl(322, 100%, 66%);
     padding: 13px 40px;
     margin-top: 15px;
     text-decoration: none;
@@ -282,6 +282,10 @@
         font-size: 16px;
         padding: 10px 30px;
     }
+    .nav-button:hover{
+        color: hsl(321, 100%, 78%);
+        border: solid hsl(321, 100%, 78%) 2px;
+    }
     .nav-heading{
         font-size: 50px;
         margin: 180px 0px 30px;
@@ -297,6 +301,9 @@
         text-decoration: none;
         margin-bottom: 50px;
         border-radius: 40px;
+    }
+    .nav-big-button:hover{
+        background:hsl(321, 100%, 78%) ;
     }
 
     /*Welcome section*/
@@ -401,6 +408,9 @@
         margin-bottom: 50px;
         border-radius: 40px;
     }
+    .get-started-button:hover{
+        background:hsl(321, 100%, 78%) ;
+    }
 
     /*footer section*/
 
@@ -424,9 +434,11 @@
         grid-column: 2;
         grid-template-columns: 3fr 1fr;
         gap: 0px 20px;
+        height: fit-content;
     }
     .footer-heading{
         height: fit-content;
+        font-size: 30px
     }
     .footer-text{
         grid-column: 1;
@@ -438,6 +450,9 @@
         margin-top: 0px;
         padding: 12px 40px;
         height: fit-content;
+    }
+    .subscribe:hover{
+        background:hsl(321, 100%, 78%) ;
     }
 }
 
